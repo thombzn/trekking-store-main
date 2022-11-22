@@ -1,0 +1,342 @@
+.header {
+    height: 100vh;
+    background-image: url('images/paysage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header .container {
+    color: white;
+}
+
+.header .navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    height: 20vh;
+}
+
+.header .navbar a:hover {
+    text-decoration: underline;
+}
+
+.d-flex {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titles {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre h1 {
+    font-size: 70px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle h5 {
+    width: 50%;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 18px;
+}
+
+.chevron {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.chevron i{
+    font-size: 50px;
+}
+
+
+.action {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.check {
+    width: 50%;
+    height: 50%;
+    border: none;
+}
+
+.check:checked {
+    background-color: #F5F6F7;
+    color: #AA9B77;
+}
+
+.formulaire {
+    background-color: #F5F6F7;
+}
+
+.formulaire {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.text {
+    height: max-content;
+}
+
+button {
+    border: none;
+    background-color: #AA9B77;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+input {
+    accent-color: #AA9B77;
+}
+
+.titlemen {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.pagesmen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pagesmen a {
+    text-decoration: none;
+    color: #AA9B77;
+}
+
+.card  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separationmen {
+    background-color: #CCCCCC;
+    height: 3px;
+    width: 90%;
+}
+.card img {
+    width: 50%;
+}
+
+.card-body {
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.size {
+    margin-bottom: 15%;
+    margin-top: 0;
+}
+
+.color {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+.yellow {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(232, 232, 0);
+}
+
+.brown {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(55, 0, 0);
+}
+
+.dropdown a{
+    color: #AA9B77;
+}
+
+.card-body h4{
+    font-size: 18px;
+    color: #AA9B77;
+}
+
+.card-body h3{
+    font-size: 20px;
+    color: #424242;
+}
+
+.trousers img{
+    width: 33%;
+}
+
+.backpack img {
+    width: 45%;
+}
+
+.titrewomen {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.separationwomen {
+    background-color: #CCCCCC;
+    height: 3px;
+    width: 85%;
+}
+
+.pageswomen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pageswomen a {
+    text-decoration: none;
+    color: #AA9B77;
+}
+
+.colorwomen {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.womencoat img{
+    width: 53%;
+}
+
+.womenshoe img {
+    width: 75%;
+}
+
+.pink {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #D3A7AC;
+}
+
+.white {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+}
+
+.men .back {
+    background-color: #F5F6F7;
+    border: none;
+    border-radius: 0px;
+}
+
+.gold {
+    height: 400px;
+    margin-top: 70px;
+    background-color: #AA9B77;
+}
+
+.goldcontainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem {
+    width: 50%;
+    border: #918363 solid 2px;
+    padding: 60px 40px 60px 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.twitter {
+    height: 100px;
+    background-color: #424242;
+}
+
+.twittercontent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.twittercontent img {
+    width: 5%;
+}
+
+.footer {
+    height: 400px;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.footercontent {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footercontent .text {
+    width: 30%;
+}
+
+.footercontent .navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.footercontent .navigation a:hover {
+    text-decoration: underline;
+}
